@@ -1,7 +1,7 @@
-# Ethics of Algorithms class 
+# MSCS6931Projct1
 # Project Script 
 # By: Eyad Aldawod
-# Dataset: 
+# Dataset: https://www.kaggle.com/new-york-state/nys-prison-admissions-beginning-2008/home
 
 # loading dataset to R
 dat <- read.csv("prison-admissions-beginning-2008.csv", header=TRUE)
@@ -222,7 +222,6 @@ plot(mrtm2, type="b", ylab="Age", xlab="Year", main="Male Median of Age Over Yea
 plot(frtm2, type="b", ylab="Age", xlab="Year", main="Female Median of Age Over Years")
 dev.off()
 
-# Close all plots 
-#dev.off()
+
 
 
